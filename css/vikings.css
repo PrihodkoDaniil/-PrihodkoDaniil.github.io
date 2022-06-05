@@ -1,0 +1,92 @@
+.b-page {
+    position: relative;
+    margin: 0 auto;
+    cursor: url(cursors/axe.cur), auto;
+    width: 100%;
+    margin: 0;
+    background-color: #f7f7f7;
+    background: url("../images/vikings/left.jpg"),url("../images/vikings/right.jpg"),url("../images/main/center.jpg");
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: left,right,center;
+    background-attachment: fixed,fixed,fixed;
+    background-size: 25% 100%, 25% 100%, 50% 100%;
+    font-family: VOX;
+    font-size: 12px;
+}
+
+.header {
+    width: 35%;
+    margin-left: 32%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.header__First-text {
+    text-align: center;
+    color: #ed2939;
+    font-size: 65px;
+    padding-bottom: 5%
+}
+
+.header__main-text {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+.b-table_of_contents {
+    width: 35%;
+    margin-left: 32%;
+    padding-bottom: 5%;
+}
+
+.b-table_of_contents__header {
+    text-align: center;
+    font-size: 25px;
+}
+
+.b-table_of_contents__text {
+    text-align: center;
+}
+
+.b-table_of_contents_text a {
+    color: black;
+    text-decoration: none;
+    font-family: VOX;
+}
+
+.b-text_img {
+    float: left;
+    padding: 10px;
+}
+
+.b-text {
+    text-align: center;
+    width: 45%;
+    margin-left: 30%;
+}
+
+@font-face {
+    font-family: VOX;
+    src: url(fonts/Moyenage.ttf);
+}
+
+.b-text_main {
+    width: 85%;
+    font-family: VOX;
+    padding: 10px;
+    font-size: 28px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.b-text_first a {
+    color: black;
+    text-decoration: none;
+}
+
+.h2:target {
+}
