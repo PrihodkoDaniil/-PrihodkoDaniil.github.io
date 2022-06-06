@@ -1,7 +1,7 @@
 .b-page {
     position: relative;
     margin: 0 auto;
-    cursor: url(cursors/spear.cur), auto;
+    cursor: url(../cursors/spear.cur), auto;
     width: 100%;
     margin: 0;
     background-color: #f7f7f7;
@@ -68,7 +68,7 @@
 
 @font-face {
     font-family: VOX;
-    src: url(fonts/Moyenage.ttf);
+    src: url(../fonts/Moyenage.ttf);
 }
 
 .b-text_main {
